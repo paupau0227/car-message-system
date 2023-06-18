@@ -5,10 +5,10 @@ from bluepy import btle
 import binascii  
 import sys
 
-MAC_ADDRESS = '58:3c:16:3d:6e:d8'
-DEVICE_NAME = 'Pixel 6'
-MY_SERVICE_UUID = '00001101-0000-1000-8000-00805F9B34FB'
-MY_CHARACTERISTIC_UUID = '00002201-0000-1000-8000-00805F9B34FB'
+MAC_ADDRESS = ''
+DEVICE_NAME = ''
+MY_SERVICE_UUID = ''
+MY_CHARACTERISTIC_UUID = ''
 
 class MyDelegate(btle.DefaultDelegate):  
     def __init__(self):
